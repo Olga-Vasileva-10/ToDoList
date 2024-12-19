@@ -19,6 +19,7 @@ class TaskAdapter(private val context: Context, val listener: TaskClickListener)
         return TaskViewHolder(
             LayoutInflater.from(context).inflate(R.layout.list_item, parent, false)
         )
+
     }
 
     override fun getItemCount(): Int {
