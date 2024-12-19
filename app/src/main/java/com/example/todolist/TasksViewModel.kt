@@ -17,6 +17,7 @@ class TasksViewModel(application: Application): AndroidViewModel(application) {
     val allTodo : LiveData<List<Task>>
 
     init {
+
         val dao = TaskDatabase.getDatabase(application).getTodoDao()
         repository = TaskRepository(dao)
         allTodo = repository.allTodos
