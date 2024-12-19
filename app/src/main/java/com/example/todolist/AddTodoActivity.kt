@@ -19,6 +19,7 @@ class AddTodoActivity : AppCompatActivity() {
     var isUpdate = false
 
 
+
     @SuppressLint("SimpleDateFormat")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
